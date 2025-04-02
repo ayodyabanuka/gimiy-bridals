@@ -9,7 +9,7 @@ export default function Home() {
         <div className='max-w-screen-xl mx-auto flex flex-col w-full h-full '>
           <div className='h-full flex flex-col gap-2 lg:p-20 justify-center items-center lg:items-start'>
             <Image src={'/logo.png'} alt={''} width={200} height={200} />
-            <div className='text-4xl md:text-6xl lg:text-8xl font-bold text-center lg:text-left leading-20'>
+            <div className='text-4xl md:text-6xl lg:text-8xl font-bold text-center lg:text-left leading-8 md:leading-14 lg:leading-20'>
               Where Your <br /> Dream Dress <br /> Comes to Life
             </div>
             <div className='text-3xl md:text-4xl lg:text-6xl'>
