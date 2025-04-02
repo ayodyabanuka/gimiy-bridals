@@ -19,10 +19,16 @@ export default function Home() {
               Stay tuned for our grand reveal.
             </div>
             <div className='flex items-center gap-1 text-2xl'>
-              <Link href={'/'} className='p-5'>
+              <Link
+                href={'/https://www.facebook.com/gimiy.bridals'}
+                className='p-5'
+              >
                 <FaFacebookF className='group hover:scale-125 transition-all duration-300' />
               </Link>
-              <Link href={'/'} className='p-5'>
+              <Link
+                href={'/https://www.instagram.com/gimiy_bridals/'}
+                className='p-5'
+              >
                 <FaInstagram className='group hover:scale-125 transition-all duration-300' />
               </Link>
             </div>
